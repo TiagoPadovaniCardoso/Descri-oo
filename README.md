@@ -15,6 +15,11 @@ O **Git** é um sistema de controle de versão distribuído. Ele permite que vá
 * **Branch**: uma linha de desenvolvimento separada.
 * **Merge**: união de mudanças de diferentes branches.
 * **Fork**: cópia de um repositório (geralmente usada para contribuir com projetos de outras pessoas).
+  
+<img width="531" height="231" alt="{A8F10EBE-98F1-4813-954E-23FE455A6BCB}" src="https://github.com/user-attachments/assets/c88d5468-353d-458c-8b3c-b9acb9410907" />
+
+
+<img width="711" height="354" alt="{B3DE3D1A-2B52-4923-BAE8-E53B66CE03ED}" src="https://github.com/user-attachments/assets/0f96eed7-78e1-46bd-b32d-a7788332bb32" />
 
 
 
@@ -39,16 +44,21 @@ O **fork** cria uma cópia completa de um repositório público na sua conta Git
 
 Exemplo visual (baseado na imagem):
 
+<img width="684" height="309" alt="{85709C5E-30D5-41E8-935B-825C9EA946F2}" src="https://github.com/user-attachments/assets/c4b2481c-f451-4eb9-99bf-ee1c36d5c352" />
+
+
+
 ```bash
 # Depois de fazer o fork, o repositório será copiado para:
 https://github.com/seu-usuario/nome-do-repositorio
 ```
 
- <img width="1919" height="930" alt="{E321B08F-5567-476A-AECC-B495BFB9ACE4}" src="https://github.com/user-attachments/assets/8a7d043c-d68a-4c1b-bc0a-ab9ecae983b7" />
 
 ---
 
 ## 🧭 Clonando o Repositório Forkado
+
+<img width="1919" height="930" alt="{E321B08F-5567-476A-AECC-B495BFB9ACE4}" src="https://github.com/user-attachments/assets/5bbdb448-19df-4963-813b-529f3a78044f" />
 
 Após fazer o fork, você precisa **clonar** o repositório para seu computador.
 
@@ -63,7 +73,7 @@ Após fazer o fork, você precisa **clonar** o repositório para seu computador.
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
 
- <img width="1323" height="532" alt="{ECE7BF91-0955-44EE-8D75-983779E9510F}" src="https://github.com/user-attachments/assets/17043407-ccaa-4a3a-9644-1a6bdc55b797" />
+
 
 4. Acesse a pasta do projeto:
 
@@ -146,12 +156,12 @@ git merge upstream/main
 git push origin main
 ```
 
-  <img width="684" height="309" alt="{85709C5E-30D5-41E8-935B-825C9EA946F2}" src="https://github.com/user-attachments/assets/544c4e39-aa8b-408c-8ccc-2c5ab3176ca0" />
-  <img width="711" height="354" alt="{B3DE3D1A-2B52-4923-BAE8-E53B66CE03ED}" src="https://github.com/user-attachments/assets/b3301c41-3e2f-4663-9701-58a9b598325c" />
 
 ---
 
 ## 🧩 Criando um Pull Request (PR)
+
+ <img width="1323" height="532" alt="{ECE7BF91-0955-44EE-8D75-983779E9510F}" src="https://github.com/user-attachments/assets/17043407-ccaa-4a3a-9644-1a6bdc55b797" />
 
 Quando suas alterações estiverem prontas, você pode propor que sejam adicionadas ao repositório original.
 
